@@ -1,0 +1,26 @@
+// holamundo2.cpp : Defines the entry point for the console application.
+//
+// hola mundo.h
+// Nombre: Alexandra Ribera
+// Fecha: 21-08-14
+// Nombre del programa: hola mundo
+
+ #include "stdafx.h"
+ #include "stdio.h"
+ #include "conio.h"
+ #include <iostream>
+
+// terminan librerias 
+using namespace std;
+
+  void main () 
+
+
+{   int edad;
+    cout<< "ingrese su edad";
+    cin >> edad;
+	cout << "su edad es";
+	cout << edad ;
+	getch(); // es para que se detenga la pantalla hasta presionar enter
+		
+}
