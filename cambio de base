@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "math.h"
+ 
+using namespace std;
+
+void main()
+
+{float cont,s,d;
+ int r,num; 
+
+ cout<<"Ingrese valor r:";
+ cin>>r;
+ cout<<"Ingrese num:";
+ cin>>num;
+
+ cont=0;
+ s=0;
+
+  while(num!=0)
+  {d=num%r;
+   num=num/r;
+   s=s+(d*pow(10,cont));
+   cont=cont+1;
+  }
+  cout<<"La suma es :"<<s;
+  getch();
+}
+
